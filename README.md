@@ -55,3 +55,4 @@ Modern browsers and IE 10+.
 
 # License
 [MIT](http://opensource.org/licenses/MIT)
+

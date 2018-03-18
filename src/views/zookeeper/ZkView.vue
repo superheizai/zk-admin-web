@@ -2,45 +2,51 @@ Vue.component('ZkView', {
 
 <template>
 
+    <div style="font: 0px/0px sans-serif;clear: both;display: block">
 
-    <el-row>
-        <el-col :span="12">
-            <div class="grid-content bg-purple">
+        <el-row>
+            <el-col :span="12">
+                <div class="grid-content bg-purple">
 
-                <el-button type="primary">增加</el-button>
-                <el-button type="primary">删除</el-button>
-                <el-input
-                        placeholder="输入关键字进行过滤"
-                        v-model="filterText">
-                </el-input>
+                    <!--<el-button type="primary">增加</el-button>-->
+                    <!--<el-button type="primary">删除</el-button>-->
+                    <el-input
+                            placeholder="输入关键字进行过滤"
+                            v-model="filterText">
+                    </el-input>
 
-                <el-tree :props="props" :load="loadNode" lazy="" highlight-current
-                         :filter-node-method="filterNode"
-                         ref="tree2"
-                         @node-click="handleNodeClick"
-                >
-                </el-tree>
-                {{message}}
-
-
-            </div>
-        </el-col>
-        <el-col :span="12">
-            <div class="grid-content bg-purple-light">
-
-                <el-button type="primary">修改</el-button>
+                    <el-tree :props="props" :load="loadNode" lazy="" highlight-current
+                             :filter-node-method="filterNode"
+                             ref="tree2"
+                             @node-click="handleNodeClick"
+                    >
+                    </el-tree>
+                    {{message}}
 
 
-                <el-input
-                        placeholder="当前zk内容"
-                        type="textarea"
-                        ref="input"
-                        :rows="10">
-                </el-input>
-            </div>
-        </el-col>
-    </el-row>
+                </div>
+            </el-col>
+            <el-col :span="12">
+                <div class="grid-content bg-purple-light">
 
+                    <!--<el-button type="primary">修改</el-button>-->
+
+                    <el-input
+                            placeholder="当前zk内容"
+                            type="textarea"
+                            ref="input"
+                            :rows="10">
+                    </el-input>
+                    <el-input
+                            placeholder="zk节点元信息"
+                            type="textarea"
+                            ref="zkmeta"
+                            :rows="15">
+                    </el-input>
+                </div>
+            </el-col>
+        </el-row>
+    </div>
 
 </template>
 <script>
@@ -106,7 +112,12 @@ Vue.component('ZkView', {
                 return o.toString();
             },
             handleNodeClick(data) {
-                this.$refs.input.setCurrentValue(data.content);
+                if (data.stat) {
+                    this.$refs.zkmeta.setCurrentValue(JSON.stringify(data.stat, null, 2));
+                }
+                if (data.content) {
+                    this.$refs.input.setCurrentValue(data.content);
+                }
             }
             ,
             loadNode(node, resolve) {
@@ -120,6 +131,8 @@ Vue.component('ZkView', {
                 trees(params).then((res) => {
                     this.data = res.data.data.Children;
                     node.data.content = res.data.data.content;
+                    node.data.stat = res.data.data.stat;
+                    this.$refs.zkmeta.setCurrentValue(JSON.stringify(res.data.data.stat, null, 2));
                     this.$refs.input.setCurrentValue(res.data.data.content);
                     resolve(this.data);
                 });
