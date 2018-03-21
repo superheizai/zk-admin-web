@@ -229,7 +229,6 @@
                 }
 
                 this.editableTabsValue = activeName;
-                console.log("now activeName is " + this.editableTabsValue);
                 this.editableTabs = tabs.filter(tab => tab.name !== targetName);
 
                 if (this.editableTabs.length === 0) {

@@ -6,14 +6,14 @@ Vue.component('ZkView', {
 
         <el-row>
             <el-col :span="12">
-                <div class="grid-content bg-purple">
 
-                    <!--<el-button type="primary">增加</el-button>-->
-                    <!--<el-button type="primary">删除</el-button>-->
-                    <el-input
-                            placeholder="输入关键字进行过滤"
-                            v-model="filterText">
-                    </el-input>
+                <!--<el-button type="primary">增加</el-button>-->
+                <!--<el-button type="primary">删除</el-button>-->
+                <el-input
+                        placeholder="输入关键字进行过滤"
+                        v-model="filterText">
+                </el-input>
+                <div class="grid-content bg-purple" style="max-height: 550px;overflow-y: auto;">
 
                     <el-tree :props="props" :load="loadNode" lazy="" highlight-current
                              :filter-node-method="filterNode"
@@ -69,8 +69,10 @@ Vue.component('ZkView', {
         },
         watch: {
             filterText(val) {
+
+//                this.$refs.tree2.filter(val);
+
                 if (!val.trim()) {
-                    return;
                 } else {
 
                     this.$refs.tree2.filter(val);
@@ -86,31 +88,10 @@ Vue.component('ZkView', {
 
 
             filterNode(value, data) {
-                if (!value.trim()) return true;
+                if (!value.trim()) return false;
                 return data.name.indexOf(value) !== -1;
             },
 
-            arrayToJson(o) {
-                var r = [];
-                if (typeof o == "string") return "\"" + o.replace(/([\'\"\\])/g, "\\$1").replace(/(\n)/g, "\\n").replace(/(\r)/g, "\\r").replace(/(\t)/g, "\\t") + "\"";
-                if (typeof o == "object") {
-                    if (!o.sort) {
-                        for (var i in o)
-                            r.push(i + ":" + arrayToJson(o[i]));
-                        if (!!document.all && !/^\n?function\s*toString\(\)\s*\{\n?\s*\[native code\]\n?\s*\}\n?\s*$/.test(o.toString)) {
-                            r.push("toString:" + o.toString.toString());
-                        }
-                        r = "{" + r.join() + "}";
-                    } else {
-                        for (var i = 0; i < o.length; i++) {
-                            r.push(arrayToJson(o[i]));
-                        }
-                        r = "[" + r.join() + "]";
-                    }
-                    return r;
-                }
-                return o.toString();
-            },
             handleNodeClick(data) {
                 if (data.stat) {
                     this.$refs.zkmeta.setCurrentValue(JSON.stringify(data.stat, null, 2));

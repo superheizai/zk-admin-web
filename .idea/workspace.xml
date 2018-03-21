@@ -2,28 +2,451 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6711f975-347b-40b7-b956-d9048a2d7a0d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/charts/echarts.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/nav1/Form.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/nav1/Table.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/nav1/user.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/nav2/Page4.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/nav2/Page5.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/nav3/Page6.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/zookeeper/ZkTree.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/zookeeper/ZkTreeBak.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/zookeeper/ZkViewBak.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/zookeeper/ZmsCluster.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/zookeeper/zkCluster.vue" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist.taz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist.taz.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/fonts/element-icons.b02bdc1.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/fonts/fontawesome-webfont.674f50d.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/fonts/fontawesome-webfont.af7ae50.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/fonts/fontawesome-webfont.b06871f.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/fonts/fontawesome-webfont.fee66e7.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.babelrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/build_dev.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/build_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/webpack.local.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/webpack.test.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/local.env.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/test.env.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/css/app.8b16a84eb2353c76aa8572fc1926cdd5.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/css/app.8b16a84eb2353c76aa8572fc1926cdd5.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/img/fontawesome-webfont.912ec66.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/js/app.5f7929ab53d58a801f0c.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/js/app.5f7929ab53d58a801f0c.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/js/manifest.a38cc6bc9f24d7304ed9.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/js/manifest.a38cc6bc9f24d7304ed9.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/js/vendor.388ed4890ee966b38a87.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/js/vendor.388ed4890ee966b38a87.js.map" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview-area@1.5.17@iview-area/.babelrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview-area@1.5.17@iview-area/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview-area@1.5.17@iview-area/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview-area@1.5.17@iview-area/READEME_EN.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview-area@1.5.17@iview-area/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview-area@1.5.17@iview-area/dist/iview-area.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview-area@1.5.17@iview-area/dist/iview-area.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview-area@1.5.17@iview-area/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview-area@1.5.17@iview-area/node_modules/area-data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview-area@1.5.17@iview-area/node_modules/iview" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview-area@1.5.17@iview-area/node_modules/vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview-area@1.5.17@iview-area/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview-area@1.5.17@iview-area/src/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview-area@1.5.17@iview-area/src/lib/components/al-cascader.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview-area@1.5.17@iview-area/src/lib/components/al-selector.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview-area@1.5.17@iview-area/src/lib/util/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview-area@1.5.17@iview-area/webpack.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/iview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/iview.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/iview.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/iview.min.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/iview.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/de-DE.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/de-DE.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/el-GR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/el-GR.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/en-US.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/en-US.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/es-ES.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/es-ES.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/fa-IR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/fa-IR.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/fr-FR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/fr-FR.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/hi-IN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/hi-IN.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/id-ID.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/id-ID.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/it-IT.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/it-IT.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/ja-JP.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/ja-JP.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/ko-KR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/ko-KR.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/nl-NL.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/nl-NL.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/pt-BR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/pt-BR.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/pt-PT.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/pt-PT.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/ro-RO.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/ro-RO.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/ru-RU.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/ru-RU.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/sv-SE.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/sv-SE.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/th-TH.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/th-TH.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/tr-TR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/tr-TR.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/uk-UA.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/uk-UA.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/vi-VN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/vi-VN.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/zh-CN.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/zh-TW.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/locale/zh-TW.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/styles/fonts/ionicons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/styles/fonts/ionicons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/styles/fonts/ionicons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/styles/fonts/ionicons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/dist/styles/iview.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/node_modules/async-validator" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/node_modules/deepmerge" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/node_modules/element-resize-detector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/node_modules/js-calendar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/node_modules/lodash.throttle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/node_modules/popper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/node_modules/tinycolor2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/node_modules/vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/affix/affix.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/affix/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/alert/alert.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/alert/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/auto-complete/auto-complete.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/auto-complete/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/avatar/avatar.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/avatar/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/back-top/back-top.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/back-top/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/badge/badge.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/badge/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/base/collapse-transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/base/notification/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/base/notification/notice.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/base/notification/notification.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/base/popper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/base/render.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/breadcrumb-item/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/breadcrumb/breadcrumb-item.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/breadcrumb/breadcrumb.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/breadcrumb/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/button-group/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/button/button-group.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/button/button.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/button/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/card/card.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/card/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/carousel-item/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/carousel/carousel-item.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/carousel/carousel.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/carousel/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/cascader/cascader.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/cascader/casitem.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/cascader/caspanel.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/cascader/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/checkbox-group/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/checkbox/checkbox-group.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/checkbox/checkbox.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/checkbox/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/circle/circle.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/circle/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/col/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/collapse/collapse.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/collapse/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/collapse/panel.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/color-picker/alpha.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/color-picker/color-picker.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/color-picker/hue.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/color-picker/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/color-picker/recommend-colors.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/color-picker/saturation.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/content/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/date-picker/base/confirm.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/date-picker/base/date-table.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/date-picker/base/mixin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/date-picker/base/month-table.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/date-picker/base/prefixCls.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/date-picker/base/time-spinner.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/date-picker/base/year-table.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/date-picker/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/date-picker/panel/Date/date-panel-label.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/date-picker/panel/Date/date-panel-mixin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/date-picker/panel/Date/date-range.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/date-picker/panel/Date/date.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/date-picker/panel/Time/time-range.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/date-picker/panel/Time/time.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/date-picker/panel/panel-mixin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/date-picker/picker.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/date-picker/picker/date-picker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/date-picker/picker/time-picker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/date-picker/time-mixins.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/date-picker/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/dropdown-item/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/dropdown-menu/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/dropdown/dropdown-item.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/dropdown/dropdown-menu.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/dropdown/dropdown.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/dropdown/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/footer/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/form-item/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/form/form-item.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/form/form.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/form/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/grid/col.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/grid/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/grid/row.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/header/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/i18n/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/icon/icon.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/icon/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/input-number/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/input-number/input-number.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/input/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/input/input.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/layout/content.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/layout/footer.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/layout/header.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/layout/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/layout/layout.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/layout/sider.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/loading-bar/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/loading-bar/loading-bar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/loading-bar/loading-bar.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/locale/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/menu-group/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/menu-item/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/menu/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/menu/menu-group.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/menu/menu-item.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/menu/menu.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/menu/mixin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/menu/submenu.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/message/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/modal/confirm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/modal/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/modal/mixins-scrollbar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/modal/modal.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/notice/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/option-group/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/option/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/options/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/page/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/page/options.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/page/page.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/panel/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/poptip/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/poptip/poptip.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/progress/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/progress/progress.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/radio-group/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/radio/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/radio/radio-group.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/radio/radio.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/rate/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/rate/rate.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/row/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/scroll/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/scroll/loading-component.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/scroll/scroll.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/select/dropdown.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/select/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/select/option-group.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/select/option.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/select/select.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/select/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/sider/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/slider/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/slider/slider.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/spin/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/spin/spin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/spin/spin.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/step/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/steps/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/steps/step.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/steps/steps.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/submenu/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/switch/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/switch/switch.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/tab-pane/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/table/cell.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/table/expand.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/table/export-csv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/table/header.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/table/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/table/mixin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/table/table-body.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/table/table-head.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/table/table-tr.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/table/table.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/tabs/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/tabs/pane.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/tabs/tabs.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/tag/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/tag/tag.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/time-picker/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/timeline-item/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/timeline/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/timeline/timeline-item.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/timeline/timeline.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/tooltip/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/tooltip/tooltip.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/transfer/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/transfer/list.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/transfer/operation.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/transfer/search.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/transfer/transfer.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/tree/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/tree/node.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/tree/render.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/tree/tree.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/upload/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/upload/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/upload/upload-list.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/components/upload/upload.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/directives/clickoutside.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/directives/transfer-dom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/locale/format.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/locale/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/locale/lang.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/locale/lang/de-DE.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/locale/lang/el-GR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/locale/lang/en-US.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/locale/lang/es-ES.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/locale/lang/fa-IR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/locale/lang/fr-FR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/locale/lang/hi-IN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/locale/lang/id-ID.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/locale/lang/it-IT.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/locale/lang/ja-JP.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/locale/lang/ko-KR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/locale/lang/nl-NL.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/locale/lang/pt-BR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/locale/lang/pt-PT.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/locale/lang/ro-RO.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/locale/lang/ru-RU.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/locale/lang/sv-SE.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/locale/lang/th-TH.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/locale/lang/tr-TR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/locale/lang/uk-UA.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/locale/lang/vi-VN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/locale/lang/zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/locale/lang/zh-TW.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/mixins/emitter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/mixins/locale.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/animation/ease.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/animation/fade.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/animation/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/animation/move.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/animation/slide.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/common/article.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/common/base.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/common/iconfont/_ionicons-font.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/common/iconfont/_ionicons-icons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/common/iconfont/_ionicons-variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/common/iconfont/fonts/ionicons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/common/iconfont/fonts/ionicons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/common/iconfont/fonts/ionicons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/common/iconfont/fonts/ionicons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/common/iconfont/ionicons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/common/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/common/layout.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/common/normalize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/affix.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/alert.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/auto-complete.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/avatar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/back-top.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/badge.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/button.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/card.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/cascader.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/checkbox.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/circle.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/collapse.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/color-picker.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/date-picker.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/dropdown.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/form.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/input-number.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/input.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/layout.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/loading-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/menu.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/message.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/modal.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/notice.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/page.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/poptip.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/progress.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/radio.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/rate.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/scroll.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/select-dropdown.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/select.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/slider.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/spin.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/steps.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/switch.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/table.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/tabs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/tag.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/time-picker.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/timeline.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/transfer.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/tree.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/components/upload.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/copyright.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/custom.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/mixins/breadcrumb.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/mixins/button.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/mixins/caret.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/mixins/checkbox.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/mixins/clearfix.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/mixins/close.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/mixins/common.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/mixins/content.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/mixins/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/mixins/input.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/mixins/layout.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/mixins/loading.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/mixins/mask.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/mixins/select.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/mixins/size.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/styles/mixins/tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/utils/assist.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/utils/calcTextareaHeight.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/utils/csv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/utils/date.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_iview@2.11.0@iview/src/utils/dom.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/build.js" afterPath="$PROJECT_DIR$/build/build.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/dev-server.js" afterPath="$PROJECT_DIR$/build/dev-server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/utils.js" afterPath="$PROJECT_DIR$/build/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/vue-loader.conf.js" afterPath="$PROJECT_DIR$/build/vue-loader.conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/webpack.base.conf.js" afterPath="$PROJECT_DIR$/build/webpack.base.conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/webpack.dev.conf.js" afterPath="$PROJECT_DIR$/build/webpack.dev.conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/webpack.prod.conf.js" afterPath="$PROJECT_DIR$/build/webpack.prod.conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/dev.env.js" afterPath="$PROJECT_DIR$/config/dev.env.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/index.js" afterPath="$PROJECT_DIR$/config/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/prod.env.js" afterPath="$PROJECT_DIR$/config/prod.env.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.npminstall.done" afterPath="$PROJECT_DIR$/node_modules/.npminstall.done" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.package_versions.json" afterPath="$PROJECT_DIR$/node_modules/.package_versions.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mock/data/user.js" afterPath="$PROJECT_DIR$/src/mock/data/user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/api/api.js" afterPath="$PROJECT_DIR$/src/api/api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.js" afterPath="$PROJECT_DIR$/src/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes.js" afterPath="$PROJECT_DIR$/src/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/Home.vue" afterPath="$PROJECT_DIR$/src/views/Home.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/Login.vue" afterPath="$PROJECT_DIR$/src/views/Login.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/zookeeper/ZkView.vue" afterPath="$PROJECT_DIR$/src/views/zookeeper/ZkView.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/zookeeper/Zks.vue" afterPath="$PROJECT_DIR$/src/views/zookeeper/Zks.vue" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,28 +457,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/index.js">
+      <file leaf-file-name="build_test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/build_test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+            <state relative-caret-position="90">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mock/data/user.js">
+      <file leaf-file-name="webpack.dev.conf.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/webpack.dev.conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="27" column="37" lean-forward="false" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+            <state relative-caret-position="-574">
+              <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/Main.vue">
+      <file leaf-file-name="build_dev.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/build_dev.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build/build.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="check-versions.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/check-versions.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -64,53 +507,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes.js">
+      <file leaf-file-name="dev-client.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/dev-client.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Login.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/Login.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
-              <caret line="41" column="14" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="14" />
+            <state relative-caret-position="162">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vars.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/vars.scss">
+      <file leaf-file-name="webpack.test.conf.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/webpack.test.conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+            <state relative-caret-position="180">
+              <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Zks.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/views/zookeeper/Zks.vue">
+      <file leaf-file-name="webpack.prod.conf.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/webpack.prod.conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="123" column="19" lean-forward="false" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
+            <state relative-caret-position="594">
+              <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZkView.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/zookeeper/ZkView.vue">
+      <file leaf-file-name="webpack.local.conf.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/webpack.local.conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="396">
+              <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dev-server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/dev-server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="92" column="2" lean-forward="true" selection-start-line="92" selection-start-column="2" selection-end-line="92" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -123,7 +564,30 @@
       <find>user.</find>
       <find>admin</find>
       <find>taylorchen709</find>
+      <find>filter</find>
+      <find>iview</find>
+      <find>api.js</find>
+      <find>deleteZk</find>
+      <find>define</find>
+      <find>console.log</find>
+      <find>DefineePlugin</find>
+      <find>Define</find>
+      <find>DefinePlugin</find>
+      <find>env_file</find>
+      <find>NODE_ENV</find>
+      <find>development</find>
+      <find>production</find>
+      <find>config</find>
+      <find>api</find>
+      <find>localhost</find>
+      <find>opn</find>
+      <find>uri</find>
+      <find>user.jpg</find>
+      <find>10.9.20.161</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -136,19 +600,44 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/index.js" />
         <option value="$PROJECT_DIR$/src/views/nav2/Page4.vue" />
-        <option value="$PROJECT_DIR$/src/routes.js" />
         <option value="$PROJECT_DIR$/src/views/Login.vue" />
         <option value="$PROJECT_DIR$/src/mock/data/user.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/views/zookeeper/ZkTree.vue" />
+        <option value="$PROJECT_DIR$/dist/index.html" />
+        <option value="$PROJECT_DIR$/src/routes.js" />
+        <option value="$PROJECT_DIR$/dist/static/js/app.ba5e722693d318fddfce.js" />
+        <option value="$PROJECT_DIR$/build/webpack.base.conf.js" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/src/views/zookeeper/Zks.vue" />
         <option value="$PROJECT_DIR$/src/views/zookeeper/ZkView.vue" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/build/utils.js" />
+        <option value="$PROJECT_DIR$/config/index.js" />
+        <option value="$PROJECT_DIR$/build/webpack.test.conf.js" />
+        <option value="$PROJECT_DIR$/build/webpack.dev.conf.js" />
+        <option value="$PROJECT_DIR$/build/dev-server.js" />
+        <option value="$PROJECT_DIR$/src/api/api.js" />
+        <option value="$PROJECT_DIR$/config/dev.env.js" />
+        <option value="$PROJECT_DIR$/config/local.env.js" />
+        <option value="$PROJECT_DIR$/config/prod.env.js" />
+        <option value="$PROJECT_DIR$/config/test.env.js" />
+        <option value="$PROJECT_DIR$/build/build_dev.js" />
+        <option value="$PROJECT_DIR$/build/build_test.js" />
+        <option value="$PROJECT_DIR$/build/build.js" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -157,10 +646,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="243" />
-    <option name="y" value="71" />
-    <option name="width" value="1402" />
-    <option name="height" value="877" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -179,6 +666,7 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,67 +677,18 @@
             <path>
               <item name="zk-admin-web" type="b2602c69:ProjectViewProjectNode" />
               <item name="zk-admin-web" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zk-admin-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zk-admin-web" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zk-admin-web" type="b2602c69:ProjectViewProjectNode" />
               <item name="zk-admin-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zk-admin-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zk-admin-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zk-admin-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zk-admin-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zk-admin-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zk-admin-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mock" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zk-admin-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zk-admin-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zk-admin-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zk-admin-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zk-admin-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zk-admin-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="vuex" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zk-admin-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zk-admin-web" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -257,7 +696,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="vars.sc&#9;FILE&#9;file:///Users/superheizai/workspace/vue/zk-admin-web/src/styles/vars.scss&#10;login&#9;FILE&#9;file:///Users/superheizai/workspace/vue/zk-admin-web/src/views/Login.vue&#10;index.js&#9;FILE&#9;file:///Users/superheizai/workspace/vue/zk-admin-web/config/index.js" />
+    <property name="SearchEverywhereHistoryKey" value="api.j&#9;FILE&#9;file:///Users/superheizai/workspace/vue/zk-admin-web/src/api/api.js&#10;zkvi&#9;FILE&#9;file:///Users/superheizai/workspace/vue/zk-admin-web/src/views/zookeeper/ZkView.vue&#10;routes&#9;FILE&#9;file:///Users/superheizai/workspace/vue/zk-admin-web/src/routes.js&#10;routes.&#9;FILE&#9;file:///Users/superheizai/workspace/vue/zk-admin-web/src/routes.js&#10;vars.sc&#9;FILE&#9;file:///Users/superheizai/workspace/vue/zk-admin-web/src/styles/vars.scss&#10;login&#9;FILE&#9;file:///Users/superheizai/workspace/vue/zk-admin-web/src/views/Login.vue&#10;index.js&#9;FILE&#9;file:///Users/superheizai/workspace/vue/zk-admin-web/config/index.js" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/build" />
+      <recent name="$PROJECT_DIR$/config" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -375,12 +821,13 @@
       <workItem from="1521374357341" duration="1634000" />
       <workItem from="1521382136386" duration="1103000" />
       <workItem from="1521383597309" duration="50000" />
-      <workItem from="1521383758480" duration="75000" />
+      <workItem from="1521383758480" duration="2053000" />
+      <workItem from="1521447566048" duration="12813000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2862000" />
+    <option name="totallyTimeSpent" value="17653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -393,25 +840,25 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2832618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,126 +868,19 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/routes.js</url>
+          <line>6</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mock/data/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="37" lean-forward="false" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Main.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Login.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="41" column="14" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/vars.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/zookeeper/Zks.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2214">
-          <caret line="123" column="19" lean-forward="false" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/zookeeper/ZkTree.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mock/data/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Main.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Login.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="41" column="14" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/vars.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="27" lean-forward="true" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/zookeeper/Zks.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2178">
@@ -557,14 +897,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/zookeeper/ZkTree.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/zookeeper/ZkTree.vue" />
     <entry file="file://$PROJECT_DIR$/config/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
@@ -579,53 +912,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/zookeeper/ZmsCluster.vue" />
     <entry file="file://$PROJECT_DIR$/src/views/zookeeper/zkCluster.vue" />
-    <entry file="file://$PROJECT_DIR$/src/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mock/data/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="37" lean-forward="false" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/vars.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="288">
-            <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -637,26 +932,320 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/zookeeper/ZkView.vue">
+    <entry file="file://$PROJECT_DIR$/src/views/zookeeper/ZkTree.vue" />
+    <entry file="file://$PROJECT_DIR$/src/assets/user.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/zookeeper/ZkTree.vue">
+    <entry file="file://$PROJECT_DIR$/dist/static/js/app.ba5e722693d318fddfce.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1673">
-          <caret line="45" column="47" lean-forward="true" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+        <state relative-caret-position="558">
+          <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/static/js/app.2302a1a0356831135595.js.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="0" column="62803" lean-forward="false" selection-start-line="0" selection-start-column="62803" selection-end-line="0" selection-end-column="62803" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/static/js/app.bce163d93a2425d15292.js.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="0" column="865" lean-forward="false" selection-start-line="0" selection-start-column="865" selection-end-line="0" selection-end-column="865" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/shelljs/bin/shjs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="65" lean-forward="true" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/zookeeper/Zks.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="123" column="19" lean-forward="false" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
+        <state relative-caret-position="447">
+          <caret line="231" column="0" lean-forward="false" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/zookeeper/ZkView.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="648">
+            <caret line="36" column="7" lean-forward="false" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="7" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/vue-loader.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="3132" column="29" lean-forward="true" selection-start-line="3132" selection-start-column="29" selection-end-line="3132" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/webpack.base.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/opn/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1038">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/dev.env.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/prod.env.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/test.env.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/local.env.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/user.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="296" lean-forward="false" selection-start-line="0" selection-start-column="296" selection-end-line="0" selection-end-column="296" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mock/data/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-767">
+          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="36" column="30" lean-forward="false" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/check-versions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build_dev.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build_test.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/webpack.test.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/webpack.prod.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/webpack.local.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/webpack.dev.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-574">
+          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/build_dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/build_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/dev-client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/dev-server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="92" column="2" lean-forward="true" selection-start-line="92" selection-start-column="2" selection-end-line="92" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>

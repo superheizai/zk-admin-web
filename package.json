@@ -7,7 +7,9 @@
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "build_test": "node build/build_test.js",
+    "build_dev": "node build/build_dev.js"
   },
   "dependencies": {
     "axios": "^0.15.3",
@@ -17,9 +19,7 @@
     "nprogress": "^0.2.0",
     "vue": "^2.2.2",
     "vue-router": "^2.3.0",
-    "vuex": "^2.0.0-rc.6",
-    "iview": "^2.8.0",
-    "iview-area": "^1.5.16"
+    "vuex": "^2.0.0-rc.6"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",

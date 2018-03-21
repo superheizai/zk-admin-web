@@ -5,8 +5,9 @@ var normalAxios = axios.create();
 
 
 let base = '';
-let backend = 'http://localhost:8080';
-
+let backend = process.env.BACKEEND;
+// let backend = 'http://127.0.0.1:8080';
+// let backend = 'http://10.9.20.161:8080';
 
 export const requestLogin = params => {
     return axios.post(`${base}/login`, params).then(res => res.data);
@@ -45,7 +46,6 @@ export const secondRows = params => {
     return axios.get(`${base}/secondRows`, {params: params});
 };
 export const trees = params => {
-    console.log("pass params is " + params.name)
     return normalAxios.get(`${backend}/api/zk/cluster/${params.name}`, {params: params});
 };
 
@@ -60,5 +60,6 @@ export const deleteZk = params => {
     return normalAxios.post(`${backend}/api/zks/deleteZk`, params);
 };
 export const listZks = params => {
+    console.log(`${backend}/api/zks`);
     return normalAxios.get(`${backend}/api/zks`, {params: params});
 };
