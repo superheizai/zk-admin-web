@@ -1,8 +1,10 @@
-**demo**: [https://taylorchen709.github.io/vue-admin/](https://taylorchen709.github.io/vue-admin/)
+**instruction**:
+zk-admin-web is a zookeeper viewer, which support view multi zookeeper with different tabs. Very easy to use.zk-admin-web is the frontend and zk-viewer is the backend with go and httprouter.
+zk-admin-web is developed with reference to https://github.com/taylorchen709/vue-admin.
+
+
 
 # To start
-
-This is a project template for [vue-cli](https://github.com/vuejs/vue-cli)
 
 ``` bash
 # install dependencies
@@ -16,43 +18,19 @@ npm run build
 
 ```
 
-# Folder structure
-* build - webpack config files
-* config - webpack config files
-* dist - build
-* src -your app
-    * api
-    * assets
-    * common
-    * components - your vue components
-    * mock
-    * styles
-    * views - your pages
-    * vuex
-    * App.vue
-    * main.js - main file
-    * routes.js
-* static - static assets
+# build for dev with minification
+npm run build_dev
 
-# Theme
-You can change theme by 
-1. Generate theme packages by [https://elementui.github.io/theme-preview/#/](https://elementui.github.io/theme-preview/#/)
-2. Put theme packages in src/assets/theme/
-3. Edit src/main.js 
-``` bash
-   import 'element-ui/lib/theme-default/index.css'
-   to
-   import './assets/theme/your-theme/index.css'
 ```
-4. Edit src/styles/vars.scss
 
-![theme-blue](https://raw.githubusercontent.com/taylorchen709/markdown-images/master/vueadmin/rec-demo.gif)
-![theme-green](https://raw.githubusercontent.com/taylorchen709/markdown-images/master/vueadmin/theme-green.png)
+# build for test with minification
+npm run build_test
 
-# Browser support
-
-Modern browsers and IE 10+.
-
-# License
-[MIT](http://opensource.org/licenses/MIT)
+```
+# multi env support
+  under config folder, there are *.env.js, which ared used for env setting.
+  under build folder,there are build_* scripts, which ared used for build setting.
+  
+  process.env.NODE_ENV = 'development' // used for current env insturction
+  process.env.BACKEEND = 'http://10.9.20.161:8080'  //used for backend service definition
 
