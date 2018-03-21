@@ -1,7 +1,7 @@
 require('./check-versions')()
 
 process.env.NODE_ENV = 'production'
-process.env.BACKEEND = 'http://10.9.35.138:8080'
+process.env.BACKEEND = 'http://127.0.0.1:8080'
 
 
 
