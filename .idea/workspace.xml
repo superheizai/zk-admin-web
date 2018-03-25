@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6711f975-347b-40b7-b956-d9048a2d7a0d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitingore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist.taz.bak" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/app.5f7929ab53d58a801f0c.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/app.5f7929ab53d58a801f0c.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/manifest.a38cc6bc9f24d7304ed9.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/manifest.a38cc6bc9f24d7304ed9.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/vendor.388ed4890ee966b38a87.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/vendor.388ed4890ee966b38a87.js.map" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist.taz" afterPath="$PROJECT_DIR$/dist.taz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/prod.env.js" afterPath="$PROJECT_DIR$/config/prod.env.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/static/css/app.8b16a84eb2353c76aa8572fc1926cdd5.css.map" afterPath="$PROJECT_DIR$/dist/static/css/app.8b16a84eb2353c76aa8572fc1926cdd5.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.npminstall.done" afterPath="$PROJECT_DIR$/node_modules/.npminstall.done" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.package_versions.json" afterPath="$PROJECT_DIR$/node_modules/.package_versions.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/api/api.js" afterPath="$PROJECT_DIR$/src/api/api.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.js" afterPath="$PROJECT_DIR$/src/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/zookeeper/ZkView.vue" afterPath="$PROJECT_DIR$/src/views/zookeeper/ZkView.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/zookeeper/Zks.vue" afterPath="$PROJECT_DIR$/src/views/zookeeper/Zks.vue" />
-    </list>
+    <list default="true" id="6711f975-347b-40b7-b956-d9048a2d7a0d" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -412,12 +391,12 @@
       <workItem from="1521383597309" duration="50000" />
       <workItem from="1521383758480" duration="2053000" />
       <workItem from="1521447566048" duration="25464000" />
-      <workItem from="1521856794069" duration="7179000" />
+      <workItem from="1521856794069" duration="7624000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37483000" />
+    <option name="totallyTimeSpent" value="37928000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="42" y="23" width="1398" height="877" extended-state="0" />
