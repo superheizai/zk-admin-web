@@ -45,6 +45,8 @@ export const firstRows = params => {
 export const secondRows = params => {
     return axios.get(`${base}/secondRows`, {params: params});
 };
+
+
 export const trees = params => {
     return normalAxios.get(`${backend}/api/zk/cluster/${params.name}`, {params: params});
 };
@@ -58,8 +60,19 @@ export const updateZk = params => {
 };
 export const deleteZk = params => {
     return normalAxios.post(`${backend}/api/zks/deleteZk`, params);
+
 };
 export const listZks = params => {
-    console.log(`${backend}/api/zks`);
     return normalAxios.get(`${backend}/api/zks`, {params: params});
+};
+
+export const addZkNode = params => {
+    return normalAxios.post(`${backend}/api/zks/createZkNode`, params);
+};
+export const updateZkNode = params => {
+    return normalAxios.post(`${backend}/api/zks/updateZkNode`, params);
+};
+export const deleteZkNode = params => {
+    return normalAxios.post(`${backend}/api/zks/deleteZkNode`, params);
+
 };

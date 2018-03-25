@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App'
 import ElementUI from 'element-ui'
-import 'element-ui/lib/theme-default/index.css'
+import 'element-ui/lib/theme-chalk/index.css'
 //import './assets/theme/theme-green/index.css'
 import VueRouter from 'vue-router'
 import store from './vuex/store'
@@ -11,6 +11,7 @@ import Vuex from 'vuex'
 import routes from './routes'
 import Mock from './mock'
 import 'font-awesome/css/font-awesome.min.css'
+
 
 Mock.bootstrap();
 // import iView from 'iview';

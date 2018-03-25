@@ -331,6 +331,8 @@
             closeAdd: function () {
                 this.$refs['addForm'].resetFields();
                 this.addFormVisible = false;
+                this.addLoading = false;
+                this.listLoading = false;
             },
             //新增
             addSubmit: function () {
